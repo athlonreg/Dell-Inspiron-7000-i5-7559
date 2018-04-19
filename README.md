@@ -1,1 +1,1 @@
-# -Dell-Inspiron-7000-i5-7559
+# Dell-Inspiron-7000-i5-7559
