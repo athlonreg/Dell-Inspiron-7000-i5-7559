@@ -233,7 +233,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 	</dict>
@@ -257,7 +257,7 @@
 	<key>CPU</key>
 	<dict>
 		<key>HWPEnable</key>
-		<true/>
+		<false/>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -272,8 +272,6 @@
 		<dict>
 			<key>FixOwnership</key>
 			<true/>
-			<key>Inject</key>
-			<false/>
 		</dict>
 	</dict>
 	<key>GUI</key>
