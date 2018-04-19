@@ -239,7 +239,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 		<key>SortedOrder</key>
@@ -258,6 +258,7 @@
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-I5-6300HQ.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
