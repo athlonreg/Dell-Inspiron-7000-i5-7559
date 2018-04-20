@@ -12,8 +12,6 @@
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
 				<true/>
-				<key>FixHeaders</key>
-				<true/>
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixRTC</key>
@@ -225,9 +223,61 @@
 				<key>TableId</key>
 				<string>CpuPm</string>
 			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>Cpu0Cst</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>ApCst</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>Cpu0Ist</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>ApHwp</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>Cpu0Hwp</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>HwpLvt</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>CpuCst</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>ApIst</string>
+			</dict>
 		</array>
+		<key>FixHeaders</key>
+		<true/>
 		<key>SSDT</key>
 		<dict>
+			<key>DropOem</key>
+			<true/>
 			<key>Generate</key>
 			<dict>
 				<key>APLF</key>
@@ -239,7 +289,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 		<key>SortedOrder</key>
@@ -258,7 +308,6 @@
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-XOSI.aml</string>
-			<string>SSDT-I5-6300HQ.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
@@ -398,7 +447,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02743701GUF0V5CB</string>
+		<string>C02739104OPDM691F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -426,7 +475,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02VM1QDGVC1</string>
+		<string>C02VG2FPGVC1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
