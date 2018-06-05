@@ -12,12 +12,12 @@
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
 				<true/>
+				<key>FixHeaders</key>
+				<true/>
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixRTC</key>
 				<true/>
-				<key>FixTMR</key>
-				<false/>
 				<key>FixWAK</key>
 				<true/>
 			</dict>
@@ -206,6 +206,8 @@
 					</data>
 				</dict>
 			</array>
+			<key>SuspendOverride</key>
+			<true/>
 		</dict>
 		<key>DropTables</key>
 		<array>
@@ -215,13 +217,7 @@
 			</dict>
 			<dict>
 				<key>Signature</key>
-				<string>#MCFG</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuPm</string>
+				<string>MCFG</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
@@ -233,51 +229,19 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>ApCst</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Ist</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>ApHwp</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>Cpu0Hwp</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>HwpLvt</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
-				<string>CpuCst</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
 				<string>ApIst</string>
 			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>ApCst</string>
+			</dict>
 		</array>
-		<key>FixHeaders</key>
-		<true/>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
-			<true/>
+			<false/>
 			<key>Generate</key>
 			<dict>
 				<key>APLF</key>
@@ -308,13 +272,12 @@
 			<string>SSDT-SMBUS.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-XOSI.aml</string>
-			<string>SSDT-PluginType1.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-lilubetaall</string>
+		<string>rootless=0 -lilubetaall kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
 		<key>Legacy</key>
@@ -366,7 +329,7 @@
 			<false/>
 		</dict>
 		<key>Theme</key>
-		<string>Simple</string>
+		<string>SimpleThemeDark</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -448,7 +411,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02739104OPDM691F</string>
+		<string>C026036094NDNY3CB</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -476,7 +439,7 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02VG2FPGVC1</string>
+		<string>C02R44VTGVC1</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
