@@ -1,6 +1,24 @@
+# Changelog
+- 2018.8.5
+  - Update Lilu version to 1.2.6
+  - Update CLOVER version to 4636
+  - Use ApfsDriverLoader to replace apfs
+  - Update AppleALC version to 1.3.1
+  - Update USBInjectAll to 2018-07-16
+  - Merge IntelGraphicsFixup、IntelGraphicsDVMTFixup、Shiki to WhateverGreen
+  - Update FakeSMC to latest version
+  - Show PCI info for SMBUS、SATA、IMEI、IGPU、HDEF
+  - Added ALS0 Device
+  - Use new way for patching kext provided by WhateverGreen to replace KextToPatch
+
+- 2018.6.8
+  - Update Lilu version to 1.2.4
+  - Update CLOVER version to 4522
+  - Update apfs.efi based on macOS Mojave beta 1
+  - Support macOS Mojave 10.14
+
 - 2018.6.5
   - Update CLOVER version to 4513 
-  - Support macOS Mojave 10.14
 
 - 2018.6.2
   - Update AppleALC version to 1.2.7
