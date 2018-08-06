@@ -1,4 +1,7 @@
 # Changelog
+- 2018.8.6
+  - Use AppleALC to replace VoodooHDA
+
 - 2018.8.5
   - Update Lilu version to 1.2.6
   - Update CLOVER version to 4636
