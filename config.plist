@@ -288,7 +288,9 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<string>0x19160000</string>
+				<data>
+				AAAWGQ==
+				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
 				AACQAA==
