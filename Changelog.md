@@ -1,4 +1,16 @@
 # Changelog
+- 2018.11.4
+  - Update CLOVER version to 4731
+  - Update Lilu version to 1.2.8
+  - Update AppleALC version to 1.3.3
+  - Added AppleBacklightFixup
+  - Use VirtualSMC to replace FakeSMC
+  - Update WhateverGreen to version 1.2.4
+  - Update VoodooPS2Controller to version 1.9.2
+  - Update USBInjectAll to version 0.7.0
+  - Update ACPIBatteryManager to version 1.90
+  - Update all efi drivers based on Clover 4731
+
 - 2018.8.6
   - Use AppleALC to replace VoodooHDA
 
