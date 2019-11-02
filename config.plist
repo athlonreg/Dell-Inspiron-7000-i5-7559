@@ -11,9 +11,9 @@
 				<key>#Comment-IRQ Fix</key>
 				<string>The following fixes may be needed for onboard audio/USB/etc</string>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixIPIC</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<false/>
 				<key>FixWAK</key>
@@ -235,7 +235,7 @@
 				<key>PStates</key>
 				<false/>
 				<key>PluginType</key>
-				<false/>
+				<true/>
 			</dict>
 		</dict>
 		<key>SortedOrder</key>
@@ -259,12 +259,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>-lilubetaall</string>
 		<key>DefaultVolume</key>
 		<string>Macintosh HD</string>
-		<key>Legacy</key>
-		<string>LegacyBiosDefault</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -343,7 +339,7 @@
 		<key>Inject</key>
 		<dict>
 			<key>Intel</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>KernelAndKextPatches</key>
@@ -369,17 +365,17 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>06/26/2018</string>
+		<string>09/13/2019</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP131.88Z.0223.B00.1806260754</string>
+		<string>MBP131.88Z.F000.B00.1909131924</string>
 		<key>Board-ID</key>
 		<string>Mac-473D31EABEB93F9B</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C027284014NF2FRFB</string>
+		<string>C02646405CDHMHK1F</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -390,6 +386,8 @@
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>240.0.0.0.0</string>
 		<key>Family</key>
 		<string>MacBook Pro</string>
 		<key>FirmwareFeatures</key>
@@ -407,7 +405,9 @@
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>SerialNumber</key>
-		<string>C02V2VXEGVC1</string>
+		<string>C02SP0VEGVC1</string>
+		<key>SmUUID</key>
+		<string>80691D70-A80F-474E-8242-9B2B7DB59E2A</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
