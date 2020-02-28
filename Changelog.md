@@ -1,4 +1,9 @@
 # Changelog
+
+- 2020.2.28
+  - Update CLOVER to 5104
+  - Update all kexts
+  - Support for macOS Catalina
 - 2018.11.4
   - Update CLOVER version to 4731
   - Update Lilu version to 1.2.8
